@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_main_gradation"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/splash_overall_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/splash_title"
+            style="@style/MainScaleAndFont"
+            android:text="여의도 Eat"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MainScaleAndFont"
+            android:layout_marginTop="5dp"
+            android:text="점심 먹을 때 참고하세요!"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/splash_caution"
+            style="@style/MainScaleAndFont"
+            android:layout_marginTop="20dp"
+            android:text="주의 : 이 앱은 상당히 주관적입니다."
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/MainScaleAndFont"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:lineSpacingExtra="10dp"
+        android:text="Developed by Uni_Stark\nPhoto by Lee S. G"
+        android:textSize="16sp" />
+
+</RelativeLayout>

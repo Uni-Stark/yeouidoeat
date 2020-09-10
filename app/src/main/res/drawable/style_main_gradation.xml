@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/colorGradationEnd"
+        android:startColor="@color/colorGradationStart"
+        android:type="linear" />
+
+    <!--    아래 부분 주석 해제 시 끝부분 둥글게됌-->
+    <!--    <corners android:radius="20dp" />-->
+
+</shape>
