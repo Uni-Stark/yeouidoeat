@@ -7,4 +7,45 @@
     tools:context=".ui.MainActivity">
 
 
+    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/top_navigation_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@drawable/style_main_gradation"
+        android:elevation="4dp"
+        android:padding="12dp"
+        app:bnc_mode="spread">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/c_item_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/colorWhite"
+            app:bt_shape="@drawable/style_bottom_nav_round_shape"
+
+            app:bt_icon="@drawable/ic_launcher_foreground"
+            app:bt_title="TEMP" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/c_item_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="false"
+            app:bt_icon="@drawable/ic_launcher_foreground"
+            app:bt_title="TEMP" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/c_item_temp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="false"
+
+            app:bt_icon="@drawable/ic_launcher_foreground"
+            app:bt_title="TEMP" />
+
+
+    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
 </RelativeLayout>

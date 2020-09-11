@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697343926489",
+    "firebase_url": "https://yeouidoeat.firebaseio.com",
+    "project_id": "yeouidoeat",
+    "storage_bucket": "yeouidoeat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697343926489:android:a582015b9ff5a87b199ec8",
+        "android_client_info": {
+          "package_name": "kr.uni.yeoeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697343926489-kd17ecde242h8rs8n1oqdeo087pbk654.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.uni.yeoeat",
+            "certificate_hash": "8a0d566d13c664b7e22df7f3ab783c7b5d89314a"
+          }
+        },
+        {
+          "client_id": "697343926489-t37hp4rk1vtknts0t885u7995a8tcgql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsrA2KAktwnJYzPrCZxZgy6N66yjNPVxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697343926489-t37hp4rk1vtknts0t885u7995a8tcgql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
